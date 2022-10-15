@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>supermarket.lk | My Cart</title>
+	<!-- Google font -->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+
+		<!-- Bootstrap -->
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
+
+		<!-- Slick -->
+		<link type="text/css" rel="stylesheet" href="css/slick.css"/>
+		<link type="text/css" rel="stylesheet" href="css/slick-theme.css"/>
+
+		<!-- nouislider -->
+		<link type="text/css" rel="stylesheet" href="css/nouislider.min.css"/>
+
+		<!-- Font Awesome Icon -->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+
+		<!-- Custom stlylesheet -->
+	<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Header Section Begin -->
+<header class="header">
+			
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3">
+				<div class="header__logo">
+					<h3>SUPERMARKET.LK</h3>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<nav class="header__menu">
+					<ul>
+						<li class="active"><a href="home.html">Home</a></li>
+								<li><a href="food-product-catalog.html">Food Supplements</a></li>
+								<li><a href="Cake-product-catalog-main.html">Cakes</a></li>
+								<li><a href="flowers.html">Flowers</a></li>
+								<li><a href="perfume-product-catalog.html">Perfumes</a></li>
+								<li><a href="giftvoucher.html">Vouchers</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="col-lg-3">
+				<div class="header__cart">
+					<div class="header__top__right__social">
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-linkedin"></i></a>
+						<a href="#"><i class="fa fa-pinterest-p"></i></a>
+					</div>
+					<div class="header__top__right__auth">
+						<a href="Login.html"><i class="fa fa-user"></i> Login</a>
+					</div>
+					<br><br>
+					<ul>
+						<li><a href="#"><i class="fa fa-shopping-bag"></i> <span>2</span></a></li>
+					</ul>
+					<div class="header__cart__price">item: <span>Rs.28700.00</span></div>
+				</div>
+			</div>
+
+			
+			
+		</div>
+		
+	</div>
+	
+</header>
+<!-- Header Section End -->
+
+        <div class="site-section">
+            <div class="container">
+              <div class="row mb-5">
+                <form class="col-md-12" method="post">
+                  <div class="site-blocks-table">
+                    <table class="table table-bordered">
+                      <thead>
+                        <tr>
+                          <th class="product-thumbnail">Image</th>
+                          <th class="product-name">Product</th>
+                          <th class="product-price">Price</th>
+                          <th class="product-quantity">Quantity</th>
+                          <th class="product-total">Total</th>
+                          <th class="product-remove">Remove</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td class="product-thumbnail">
+                            <img src="img/per (16).jpg" width="200 px" height="267 px" alt="Image" class="img-fluid">
+                          </td>
+                          <td class="product-name">
+                            <h2 class="h5 text-black">212 Sexy Men</h2>
+                          </td>
+                          <td>Rs.11200.00</td>
+                          <td>
+                            <div class="input-group mb-3" style="max-width: 120px;">
+                              <div class="input-group-prepend">
+                                <button class="btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
+                              </div>
+                              <input type="text" class="form-control text-center" value="1" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                              <div class="input-group-append">
+                                <button class="btn btn-outline-primary js-btn-plus" type="button">&plus;</button>
+                              </div>
+                            </div>
+      
+                          </td>
+                          <td>Rs.11200.00</td>
+                          <td><a href="#" class="btn btn-primary height-auto btn-sm">X</a></td>
+                        </tr>
+      
+                        <tr>
+                          <td class="product-thumbnail">
+                            <img src="img/per (2).jpg" width="200 px" height="267 px" alt="Image" class="img-fluid">
+                          </td>
+                          <td class="product-name">
+                            <h2 class="h5 text-black">Bad Boy</h2>
+                          </td>
+                          <td>Rs.17500.00</td>
+                          <td>
+                            <div class="input-group mb-3" style="max-width: 120px;">
+                              <div class="input-group-prepend">
+                                <button class="btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
+                              </div>
+                              <input type="text" class="form-control text-center" value="1" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                              <div class="input-group-append">
+                                <button class="btn btn-outline-primary js-btn-plus" type="button">&plus;</button>
+                              </div>
+                            </div>
+      
+                          </td>
+                          <td>Rs.17500.00</td>
+                          <td><a href="#" class="btn btn-primary height-auto btn-sm">X</a></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </form>
+              </div>
+      
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="row mb-5">
+                    <div class="col-md-6 mb-3 mb-md-0">
+                      <button class="btn btn-primary btn-sm btn-block">Update Cart</button>
+                    </div>
+                    <div class="col-md-6">
+                      <button class="btn btn-outline-primary btn-sm btn-block " onclick="window.location='home.html'">Continue Shopping</button>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <label class="text-black h4" for="coupon">Coupon</label>
+                      <p>Enter your coupon code if you have one.</p>
+                    </div>
+                    <div class="col-md-8 mb-3 mb-md-0">
+                      <input type="text" class="form-control py-3" id="coupon" placeholder="Coupon Code">
+                    </div>
+                    <div class="col-md-4">
+                      <button class="btn btn-primary btn-sm px-4">Apply Coupon</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 pl-5">
+                  <div class="row justify-content-end">
+                    <div class="col-md-7">
+                      <div class="row">
+                        <div class="col-md-12 text-right border-bottom mb-5">
+                          <h3 class="text-black h4 text-uppercase">Cart Totals</h3>
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <div class="col-md-6">
+                          <span class="text-black">Subtotal</span>
+                        </div>
+                        <div class="col-md-6 text-right">
+                          <strong class="text-black">Rs.28700.00</strong>
+                        </div>
+                      </div>
+                      <div class="row mb-5">
+                        <div class="col-md-6">
+                          <span class="text-black">Total</span>
+                        </div>
+                        <div class="col-md-6 text-right">
+                          <strong class="text-black">Rs.28700.00</strong>
+                        </div>
+                      </div>
+      
+                      <div class="row">
+                        <div class="col-md-12">
+                          <button class="btn btn-primary btn-lg btn-block" onclick="window.location='chekoutold.html'">Proceed To Checkout</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+		<!-- FOOTER -->
+		<footer id="footer">
+			<div class="section">
+				<!-- container -->
+				<div class="container">
+					<!-- row -->
+					<div class="row">
+						<div class="col-md-3 col-xs-6">
+							<div class="footer">
+								<h3 class="footer-title">Information</h3>
+								
+								<ul class="footer-links">
+									<li><a href="About Us & Feedback.html">About & Feedback</a></li>
+                                    <li><a href="deliverynew.html">Delivery Information</a></li>
+                                    <li><a href="privacy policy.html">Privacy Policy</a></li>
+                                    <li><a href="Terms.html">Terms & Conditions</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-6 text-center" style="margin-top:80px;">
+							<ul class="footer-payments">
+								<li><a href="#"><i class="fa fa-cc-visa"></i></a></li>
+								<li><a href="#"><i class="fa fa-credit-card"></i></a></li>
+								<li><a href="#"><i class="fa fa-cc-paypal"></i></a></li>
+								<li><a href="#"><i class="fa fa-cc-mastercard"></i></a></li>
+								<li><a href="#"><i class="fa fa-cc-discover"></i></a></li>
+								<li><a href="#"><i class="fa fa-cc-amex"></i></a></li>
+							</ul>
+							<span class="copyright">
+								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+								Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
+							
+							</span>
+						</div>
+
+						<div class="col-md-3 col-xs-6">
+							<div class="footer">
+								<h3 class="footer-title">Customer Services</h3>
+								<ul class="footer-links">
+									<li><a href="contact-us.html">Contact Us</a></li>
+									<li><a href="returnsbootstrap3.html">Returns</a></li>
+								</ul>
+								<br>
+								<br>
+								<h3 class="footer-title">Account</h3>
+								<ul class="footer-links">
+									<li><a href="Login.html">Login</a></li>
+				                    <li><a href="Signup.html">Signup</a></li>
+                                    <li><a href="Order.html">Order History</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="clearfix visible-xs"></div>
+
+						
+					</div>
+					<!-- /row -->
+				</div>
+				<!-- /container -->
+			</div>
+			<!-- /top footer -->
+		</footer>
+		<!-- /FOOTER -->
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/nouislider.min.js"></script>
+	<script src="js/jquery.zoom.min.js"></script>
+	<script src="js/main.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script>
+        $("#add_to_cart1").click(function(){        
+               swal("Product successfully added to cart");
+            });
+        $("#add_to_cart2").click(function(){        
+               swal("Product successfully added to cart");
+            });
+        $("#add_to_cart3").click(function(){        
+               swal("Product successfully added to cart");
+            });
+        $("#add_to_cart4").click(function(){        
+               swal("Product successfully added to cart");
+            });
+        $("#add_to_cart5").click(function(){        
+               swal("Product successfully added to cart");
+            });
+        $("#add_to_cart6").click(function(){        
+               swal("Product successfully added to cart");
+            });
+        $("#add_to_cart7").click(function(){        
+               swal("Product successfully added to cart");
+            });
+        $("#add_to_cart8").click(function(){        
+               swal("Product successfully added to cart");
+            });
+    
+
+            var sitePlusMinus = function() {
+		$('.js-btn-minus').on('click', function(e){
+			e.preventDefault();
+			if ( $(this).closest('.input-group').find('.form-control').val() != 0  ) {
+				$(this).closest('.input-group').find('.form-control').val(parseInt($(this).closest('.input-group').find('.form-control').val()) - 1);
+			} else {
+				$(this).closest('.input-group').find('.form-control').val(parseInt(0));
+			}
+		});
+		$('.js-btn-plus').on('click', function(e){
+			e.preventDefault();
+			$(this).closest('.input-group').find('.form-control').val(parseInt($(this).closest('.input-group').find('.form-control').val()) + 1);
+		});
+	};
+    sitePlusMinus();
+    
+        </script>
+
+
+</body>
+</html>
+
+
